@@ -1,3 +1,7 @@
+# React Query Tutorial by Codevolution
+
+https://www.youtube.com/watch?v=0BtcMLJ_Zdc&list=PLC3y8-rFHvwjTELCrPrcZlo6blLBUspd2&index=7
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
