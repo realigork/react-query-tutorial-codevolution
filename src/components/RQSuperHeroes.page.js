@@ -1,18 +1,18 @@
 import { useQuery } from "react-query";
 import axios from "axios";
 
-const fetchSuperHeroesAxios = () => {
+const fetchSuperHeroes = () => {
     return axios.get("http://localhost:4000/superheroes");
 };
 
-// const fetchSuperHeroes = () => {
+// const _fetchSuperHeroes = () => {
 //     return fetch("http://localhost:4000/superheroes").then((res) => res.json());
 // };
 
 export const RQSuperHeroesPage = () => {
     const { isLoading, data, isError, error, isFetching } = useQuery(
         "super-heroes",
-        fetchSuperHeroesAxios,
+        fetchSuperHeroes,
         {
             cacheTime: 5000,
         }
